@@ -13,11 +13,16 @@ const routes: Routes = [
   },
   {
     path: 'chapter',
-    loadChildren: () => import('./chapter/chapter.module').then( m => m.ChapterPageModule)
-  },
-  {
-    path: 'regulations',
-    loadChildren: () => import('./regulations/regulations.module').then( m => m.RegulationsPageModule)
+    children:[
+      {
+        path: '',
+        loadChildren: () => import('./chapter/chapter.module').then( m => m.ChapterPageModule)
+      },
+      {
+        path: '',
+        loadChildren: () => import('./chapter/regulations/regulations.module').then(m => m.RegulationsPageModule)
+      }
+    ]
   },
   {
     path: 'edit',
