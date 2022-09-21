@@ -7,6 +7,10 @@ const routes: Routes = [
   {
     path: '',
     component: ChapterPage
+  },
+  {
+    path: 'regulations',
+    loadChildren: () => import('./regulations/regulations.module').then( m => m.RegulationsPageModule)
   }
 ];
 
