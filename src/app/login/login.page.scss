@@ -1,5 +1,9 @@
 ion-toolbar{
   --background: #008080;
+
+  ion-title{
+    font-size: 30px;
+  }
 }
 
 ion-content{
@@ -17,16 +21,20 @@ ion-content{
     }
 
     img{
-      margin-top: 100px;
+      margin-top: 200px;
       width: 300px;
-      height: 50px;
+      height: auto;
     }
   }
 
   #form{
-    margin-top: 15%;
+    margin-top: 30%;
     padding-left: 30px;
     padding-right: 30px;
+
+    placeholder{
+      color: black;
+    }
 
     ion-button{
       margin-top: 35px;
