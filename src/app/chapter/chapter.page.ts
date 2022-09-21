@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Chapters} from './chapter.model';
+import { Chapter} from './chapter.model';
 import { ChapterService } from './chapter.service';
 
 @Component({
@@ -9,7 +9,7 @@ import { ChapterService } from './chapter.service';
   styleUrls: ['./chapter.page.scss'],
 })
 export class ChapterPage implements OnInit {
-  chapter: Chapters[];
+  chapter: Chapter[];
 
   constructor(private chapterService: ChapterService) { }
 

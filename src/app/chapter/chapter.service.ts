@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
-import { Chapters } from './chapter.model';
+import { Chapter } from './chapter.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ChapterService {
-  private chapters: Chapters[] = [
+  private chapters: Chapter[] = [
     {
       id: 'c1',
       title: 'Kapitel 1',
@@ -33,7 +33,7 @@ export class ChapterService {
   getChapter(chapterId: string){
     return this.chapters.find(chapter => {
       return chapter.id === chapterId;
-    })
+    });
   };
 
 }

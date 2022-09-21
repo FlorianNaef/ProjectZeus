@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title id="headerText">Anhänge</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let regulation of regulation" [routerLink]="['./', regulation.id]">
+      <ion-label>
+        {{ regulation.num }}
+      </ion-label>
+      <ion-label>
+        {{ regulation.text }}
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
