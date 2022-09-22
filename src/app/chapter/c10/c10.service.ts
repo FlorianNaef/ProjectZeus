@@ -8,20 +8,20 @@ export class RegulationService {
   private regulation: Regulation[] = [
     {
       id: 'r1',
-      num: 'C1.2 (3) Geltungsbereich',
-      text: "Vorliegende Bestimmungen gelten als harmonisierte Ergänzungen im Verteilnetzgebiet der Mitglieder des Elektrizitätswerke-Verbandes St.Gallen-Appenzell und können durch diese übernommen, ergänzt oder geändert werden.",
+      num: 'C10.1 (1) Grundlagen',
+      text: "Für das richtige Vorgehen bei der Anmeldung einer EEA dient Formular C10.1.",
       selected: true
     },
     {
-      id: 'r1',
-      num: 'C1.5 (7) (Haus-)Anschlusspunkt (AP) und Verknüpfungspunkt (V)',
-      text: 'Sämtliche Beschriftungen (Wohnungen, Messeinrichtungen, Bezüger-Überstrom-unterbrecher, Unterverteilungen, Sonnerietaster usw.) sind von Beginn der Planung bis zur Ausführung nach den Vorgaben des Bundesamtes für Statistik vorzunehmen, welche auf dem Formular C1.5 ersichtlich sind.',
+      id: 'r2',
+      num: 'C10.2.2 (1) Meldepflicht an den VNB',
+      text: 'Steckerfertige PV-Anlagen mit einer Leistung bis und mit 600W pro Bezügeranlage (Zählerstromkreis) sind dem VNB mit Formular C10.2.2 zu melden.',
       selected: true
     },
     {
-      id: 'r1',
-      num: 'C1.9.4 (3)	Abwendung eines gefährdeten oder gestörten Netzbetriebs',
-      text: 'Folgende Verbraucher sind zur Abwendung eines gefährdeten oder gestörten Netzzustands mit einem Sperrschütz auszurüsten (unabhängig von einer 24-h-Freigabe), welcher es dem VNB erlaubt, die Verbraucher bei Bedarf auszuschalten:',
+      id: 'r3',
+      num: 'C10.7 (2) Zusammenschluss zum Eigenverbrauch',
+      text: 'Für das richtige Vorgehen bei der Gründung eines Zusammenschlusses zum Eigenverbrauch dient Formular C10.7.',
       selected: true
     },
 
