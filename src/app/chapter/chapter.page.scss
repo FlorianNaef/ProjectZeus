@@ -19,3 +19,13 @@ ion-list{
 ion-card{
   background-color: #fff;
 }
+
+ion-item::part(native) {
+  background: #008080;
+  color: #fff;
+
+  border-color: #fff;
+  border-width: 2px;
+
+  border-radius: 20px;
+}
