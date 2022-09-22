@@ -16,7 +16,7 @@
   <ion-list>
     <ion-card>
       <ion-card-content>
-    <ion-item shape="round" lines="none" detail="false" *ngFor="let chapter of chapter" [routerLink]="['./', chapter.id]">
+    <ion-item shape="round" lines="none" detail="false" *ngFor="let chapter of chapter" href='{{ chapter.id }}'>
       <ion-label>
         {{ chapter.title }}
       </ion-label>
