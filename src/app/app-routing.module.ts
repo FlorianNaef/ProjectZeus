@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'login',
     pathMatch: 'full'
   },
   {
@@ -19,9 +19,41 @@ const routes: Routes = [
         loadChildren: () => import('./chapter/chapter.module').then( m => m.ChapterPageModule)
       },
       {
-        path: 'regulation',
-        loadChildren: () => import('./chapter/regulation/regulation.module').then(m => m.RegulationsPageModule)
-      }
+        path: 'c1',
+        loadChildren: () => import('./chapter/c1/c1.module').then(m => m.RegulationsPageModule)
+      },
+      {
+        path: 'c3',
+        loadChildren: () => import('./chapter/c3/c3.module').then(m => m.RegulationsPageModule)
+      },
+      {
+        path: 'c4',
+        loadChildren: () => import('./chapter/c4/c4.module').then(m => m.RegulationsPageModule)
+      },
+      {
+        path: 'c5',
+        loadChildren: () => import('./chapter/c5/c5.module').then(m => m.RegulationsPageModule)
+      },
+      {
+        path: 'c6',
+        loadChildren: () => import('./chapter/c6/c6.module').then(m => m.RegulationsPageModule)
+      },
+      {
+        path: 'c7',
+        loadChildren: () => import('./chapter/c7/c7.module').then(m => m.RegulationsPageModule)
+      },
+      {
+        path: 'c8',
+        loadChildren: () => import('./chapter/c8/c8.module').then(m => m.RegulationsPageModule)
+      },
+      {
+        path: 'c10',
+        loadChildren: () => import('./chapter/c1/c1.module').then(m => m.RegulationsPageModule)
+      },
+      {
+        path: 'c12',
+        loadChildren: () => import('./chapter/c1/c1.module').then(m => m.RegulationsPageModule)
+      },
     ]
   },
   {
@@ -31,10 +63,6 @@ const routes: Routes = [
   {
     path: 'export',
     loadChildren: () => import('./export/export.module').then( m => m.ExportPageModule)
-  },
-  {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
 ];
 
