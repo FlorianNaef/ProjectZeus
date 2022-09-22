@@ -8,10 +8,23 @@ export class RegulationService {
   private chapters: Regulation[] = [
     {
       id: 'r1',
-      num: 'Kapitel 1',
-      text: '...',
+      num: 'C1.2	Geltungsbereich',
+      text: 'I han en grosse Dick',
       selected: true
     },
+    {
+      id: 'r1',
+      num: 'C1.2	Geltungsbereich',
+      text: 'Michi het en kline',
+      selected: true
+    },
+    {
+      id: 'r1',
+      num: 'C1.2	Geltungsbereich',
+      text: 'I han en grosse Dick',
+      selected: true
+    },
+
   ];
 
   constructor() { }

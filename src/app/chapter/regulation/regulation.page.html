@@ -1,18 +1,33 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title id="headerText">Anhänge</ion-title>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <div class="ion-text-center">
+            <h2>Anhänge</h2>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-    <ion-item *ngFor="let regulation of regulation" [routerLink]="['./', regulation.id]">
-      <ion-label>
+    <ion-card *ngFor="let regulation of regulation" [routerLink]="['./', regulation.id]">
+      <ion-card-content>
+        <ion-card id="cardTitle">
+          <ion-card-content>
+            <div float-right class="my-checkbox">
+      <ion-label id="cardTitleText">
         {{ regulation.num }}
       </ion-label>
-      <ion-label>
-        {{ regulation.text }}
-      </ion-label>
-    </ion-item>
+      <ion-checkbox id="checkbox"></ion-checkbox>
+    </div>
+    </ion-card-content>
+  </ion-card>
+      <ion-label>{{ regulation.text }}</ion-label>
+  </ion-card-content>
+  </ion-card>
   </ion-list>
 </ion-content>
