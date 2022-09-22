@@ -1,9 +1,19 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>edit</ion-title>
+    <ion-title id="headerText">Übersicht</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-list>
+    <ion-card>
+      <ion-card-content>
+    <ion-item shape="round" lines="none" detail="false" *ngFor="let regulation of regulation" [routerLink]="['./', regulation.id]">
+      <ion-label>
+        {{ regulation.text }}
+      </ion-label>
+    </ion-item>
+  </ion-card-content>
+  </ion-card>
+  </ion-list>
 </ion-content>

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Regulation } from 'src/app/chapter/c1/c1.model';
+import { RegulationService } from 'src/app/chapter/c1/c1.service';
 
 @Component({
   selector: 'app-edit',
@@ -6,8 +8,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./edit.page.scss'],
 })
 export class EditPage implements OnInit {
+  regulation: Regulation[];
 
-  constructor() { }
+  constructor(private regulationService: RegulationService) { }
 
   ngOnInit() {
   }
