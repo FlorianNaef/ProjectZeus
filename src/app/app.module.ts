@@ -9,6 +9,13 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { environment } from '../environments/environment';
 
+/*PDF import*/
+import {HttpClientModule} from '@angular/common/http';
+import {FileOpener} from '@ionic-native/file-opener/ngx';
+import { StatusBar } from '@capacitor/status-bar';
+
+
+
 const firebaseConfig = {
   apiKey: 'AIzaSyABlu0Ivm43H0OhVf3mZ7lkycZxYe3RW4Q',
   authDomain: 'hellodevinthefuture.firebaseapp.com',
@@ -26,8 +33,9 @@ const firebaseConfig = {
     BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule,
+    HttpClientModule
     ],
-  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
+  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, FileOpener],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
