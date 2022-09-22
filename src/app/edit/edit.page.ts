@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Regulation } from 'src/app/chapter/regulation/regulation.model';
-import { RegulationService } from 'src/app/chapter/regulation/regulation.service';
+import { Regulation } from 'src/app/chapter/c1/c1.model';
+import { RegulationService } from 'src/app/chapter/c1/c1.service';
 
 @Component({
   selector: 'app-edit',
