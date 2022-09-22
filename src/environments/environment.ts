@@ -3,16 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: true,
-    firebaseConfig:{
-      apiKey: 'AIzaSyABlu0Ivm43H0OhVf3mZ7lkycZxYe3RW4Q',
-      authDomain: 'hellodevinthefuture.firebaseapp.com',
-      databaseURL: 'https://hellodevinthefuture-default-rtdb.europe-west1.firebasedatabase.app',
-      projectId: 'hellodevinthefuture',
-      storageBucket: 'hellodevinthefuture.appspot.com',
-      messagingSenderId: '65793317461',
-      appId: '1:65793317461:web:d3944dbd527e48097852dc',
-      measurementId: 'G-W4NKYNK316'
+
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyDi0Qs74vFmMj3jGReHLiFlPxgD_ODBxag',
+    authDomain: 'projectzeus-9ce59.firebaseapp.com',
+    projectId: 'projectzeus-9ce59',
+    storageBucket: 'projectzeus-9ce59.appspot.com',
+    messagingSenderId: '706436997871',
+    appId: '1:706436997871:web:febdc40894133d13d3f11a',
+    measurementId: 'G-83SS2J5PLP'
   }
 };
 
