@@ -16,12 +16,17 @@
   <ion-list>
     <ion-card>
       <ion-card-content>
-    <ion-item shape="round" lines="none" detail="false" *ngFor="let chapter of chapter" href='chapter/{{ chapter.id }}'>
-      <ion-label>
-        {{ chapter.title }}
-      </ion-label>
-    </ion-item>
-  </ion-card-content>
-  </ion-card>
+          <ion-item shape="round" lines="none" detail="false" *ngFor="let chapter of chapter" href='chapter/{{ chapter.id }}'>
+            <ion-label>
+              {{ chapter.title }}
+            </ion-label>
+          </ion-item>
+        </ion-card-content>
+    </ion-card>
   </ion-list>
+  <ion-item shape="round" lines="none" detail="false" id="enterEditButton" href="edit">
+    <ion-label>
+      Übersicht generieren
+    </ion-label>
+  </ion-item>
 </ion-content>
