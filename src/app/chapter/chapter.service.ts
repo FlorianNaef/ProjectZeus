@@ -7,39 +7,39 @@ import { Chapter } from './chapter.model';
 export class ChapterService {
   private chapters: Chapter[] = [
     {
-      id: '1',
+      id: 'c1',
       title: 'C1 Allgemeines',
     },
     {
-      id: '3',
+      id: 'c3',
       title: 'C3 Personen- und Sachschutz',
     },
     {
-      id: '4',
+      id: 'c4',
       title: 'C4 Überstromschutz',
     },
     {
-      id: '5',
+      id: 'c5',
       title: 'C5 Netz- und Hausanschlüsse',
     },
     {
-      id: '6',
+      id: 'c6',
       title: 'C6 Bezüger- und Steuerleitungen',
     },
     {
-      id: '7',
+      id: 'c7',
       title: 'C7 Mess-, Steuer- und Kommunikationseinrichtungen',
     },
     {
-      id: '8',
+      id: 'c8',
       title: 'C8 Verbraucheranlagen',
     },
     {
-      id: '10',
+      id: 'c10',
       title: 'C10 Energieerzeugungsanlagen (EEA)',
     },
     {
-      id: '12',
+      id: 'c12',
       title: 'C12 Ladeinfrastruktur für Elektrofahrzeuge',
     },
 

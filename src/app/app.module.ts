@@ -7,29 +7,18 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
+import { environment } from '../environments/environment';
 
-
-/**
- * import { AngularFireModule } from 'angularfire2';
-import { AngularFireDatabaseModule } from 'angularfire2/database';
-import { AngularFireAuthModule } from 'angularfire2/auth';
-
-
-export const firebaseConfig = {
+const firebaseConfig = {
   apiKey: 'AIzaSyABlu0Ivm43H0OhVf3mZ7lkycZxYe3RW4Q',
   authDomain: 'hellodevinthefuture.firebaseapp.com',
   databaseURL: 'https://hellodevinthefuture-default-rtdb.europe-west1.firebasedatabase.app',
   projectId: 'hellodevinthefuture',
   storageBucket: 'hellodevinthefuture.appspot.com',
   messagingSenderId: '65793317461',
-  appId: '1:65793317461:web:d3944dbd527e48097852dc',
-  measurementId: 'G-W4NKYNK316'
+  appId: '1:65793317461:web:7b44e3730911331b7852dc',
+  measurementId: 'G-0X102K8724'
 };
- *
- * AngularFireModule.initializeApp(firebaseConfig),
-    AngularFireDatabaseModule,
-    AngularFireAuthModule
- */
 
 @NgModule({
   declarations: [AppComponent],
