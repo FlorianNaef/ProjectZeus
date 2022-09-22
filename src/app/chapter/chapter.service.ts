@@ -36,7 +36,7 @@ export class ChapterService {
     },
     {
       id: '10',
-      title: 'C10 Energieerzeugungsanlagen (EEA',
+      title: 'C10 Energieerzeugungsanlagen (EEA)',
     },
     {
       id: '12',
