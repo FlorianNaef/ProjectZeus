@@ -29,3 +29,21 @@ ion-item::part(native) {
 
   border-radius: 20px;
 }
+
+ion-select-option{
+  color: #fff;
+}
+
+#cardTitle{
+  background-color: #008080;
+  border-radius: 100px;
+}
+
+#cardTitleText{
+  color: #fff;
+}
+
+.my-checkbox {
+  display: flex;
+  align-items: center;
+}
