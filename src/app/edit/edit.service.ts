@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Regulation } from './regulation.model';
+import { Regulation } from './chapter/regulation/regulation.model';
 
 @Injectable({
   providedIn: 'root'
@@ -15,10 +15,6 @@ export class RegulationService {
   ];
 
   constructor() { }
-
-  getAllRegulations(){
-    return [...this.regulation];
-  }
 
   getRegulation(regulationId: string){
     return this.regulation.find(regulation => {
