@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
-import { Chapters } from './chapter.model';
+import { Chapter } from './chapter.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ChapterService {
-  private chapters: Chapters[] = [
+  private chapters: Chapter[] = [
     {
       id: '1',
       title: 'C1 Allgemeines',

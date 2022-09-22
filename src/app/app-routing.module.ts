@@ -19,8 +19,8 @@ const routes: Routes = [
         loadChildren: () => import('./chapter/chapter.module').then( m => m.ChapterPageModule)
       },
       {
-        path: '',
-        loadChildren: () => import('./chapter/regulations/regulations.module').then(m => m.RegulationsPageModule)
+        path: 'regulation',
+        loadChildren: () => import('./chapter/regulation/regulation.module').then(m => m.RegulationsPageModule)
       }
     ]
   },

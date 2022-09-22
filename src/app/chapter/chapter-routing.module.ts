@@ -10,7 +10,7 @@ const routes: Routes = [
   },
   {
     path: 'regulations',
-    loadChildren: () => import('./regulations/regulations.module').then( m => m.RegulationsPageModule)
+    loadChildren: () => import('./regulation/regulation.module').then( m => m.RegulationsPageModule)
   }
 ];
 
