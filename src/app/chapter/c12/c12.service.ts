@@ -8,20 +8,8 @@ export class RegulationService {
   private regulation: Regulation[] = [
     {
       id: 'r1',
-      num: 'C1.2 (3) Geltungsbereich',
-      text: "Vorliegende Bestimmungen gelten als harmonisierte Ergänzungen im Verteilnetzgebiet der Mitglieder des Elektrizitätswerke-Verbandes St.Gallen-Appenzell und können durch diese übernommen, ergänzt oder geändert werden.",
-      selected: true
-    },
-    {
-      id: 'r1',
-      num: 'C1.5 (7) (Haus-)Anschlusspunkt (AP) und Verknüpfungspunkt (V)',
-      text: 'Sämtliche Beschriftungen (Wohnungen, Messeinrichtungen, Bezüger-Überstrom-unterbrecher, Unterverteilungen, Sonnerietaster usw.) sind von Beginn der Planung bis zur Ausführung nach den Vorgaben des Bundesamtes für Statistik vorzunehmen, welche auf dem Formular C1.5 ersichtlich sind.',
-      selected: true
-    },
-    {
-      id: 'r1',
-      num: 'C1.9.4 (3)	Abwendung eines gefährdeten oder gestörten Netzbetriebs',
-      text: 'Folgende Verbraucher sind zur Abwendung eines gefährdeten oder gestörten Netzzustands mit einem Sperrschütz auszurüsten (unabhängig von einer 24-h-Freigabe), welcher es dem VNB erlaubt, die Verbraucher bei Bedarf auszuschalten:',
+      num: 'C12.2 (3) Allgemeines',
+      text: "Ladeinfrastrukturen dürfen die Leistungen gemäss untenstehender Tabelle nicht überschreiten. Anschlussüberstromunterbrecher	Maximale Leistung der Ladeinfrastruktur bis 40A: 11kVA, 63 – 80A:	22kVA, 100 – 125A:	44kVA, 160 – 200A:	66kVA, >200A:	nach Absprache. Die Bewilligung durch den VNB aufgrund des TAG bleibt vorbehalten.",
       selected: true
     },
 

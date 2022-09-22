@@ -8,20 +8,14 @@ export class RegulationService {
   private regulation: Regulation[] = [
     {
       id: 'r1',
-      num: 'C1.2 (3) Geltungsbereich',
-      text: "Vorliegende Bestimmungen gelten als harmonisierte Ergänzungen im Verteilnetzgebiet der Mitglieder des Elektrizitätswerke-Verbandes St.Gallen-Appenzell und können durch diese übernommen, ergänzt oder geändert werden.",
+      num: 'C6.2 (2) Steuerleitungen',
+      text: "Die Anzahl Steuerleitungen zu weiteren Unterverteilungen sind unabhängig von Grösse und Anschluss der Unterverteilung frei durch den Installateur zu bestimmen. Bei allfällig zukünftig geforderten Steuermöglichkeiten von neu installierten oder bestehenden Verbrauchern sind die Steuerleitungen zu Lasten des Netz-anschlussnehmers nachzurüsten.",
       selected: true
     },
     {
-      id: 'r1',
-      num: 'C1.5 (7) (Haus-)Anschlusspunkt (AP) und Verknüpfungspunkt (V)',
-      text: 'Sämtliche Beschriftungen (Wohnungen, Messeinrichtungen, Bezüger-Überstrom-unterbrecher, Unterverteilungen, Sonnerietaster usw.) sind von Beginn der Planung bis zur Ausführung nach den Vorgaben des Bundesamtes für Statistik vorzunehmen, welche auf dem Formular C1.5 ersichtlich sind.',
-      selected: true
-    },
-    {
-      id: 'r1',
-      num: 'C1.9.4 (3)	Abwendung eines gefährdeten oder gestörten Netzbetriebs',
-      text: 'Folgende Verbraucher sind zur Abwendung eines gefährdeten oder gestörten Netzzustands mit einem Sperrschütz auszurüsten (unabhängig von einer 24-h-Freigabe), welcher es dem VNB erlaubt, die Verbraucher bei Bedarf auszuschalten:',
+      id: 'r2',
+      num: 'C6.2 (7) Steuerleitungen',
+      text: 'Die Nummerierung der Steuerleiter darf nach eigenen Vorgaben des Installateurs erstellt werden. Die Steuerfunktionen müssen durch den Installateur allerdings auf einer unmittelbar beim Steuerapparat dauerhaft befestigten Legende mit den zugehörigen Leiternummern beschriftet werden. Bei unvollständiger Beschriftung behält sich der VNB vor, die Mess- und Tarifapparate nicht zu montieren und die entstandenen Mehrkosten weiter zu verrechnen.',
       selected: true
     },
 
