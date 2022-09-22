@@ -14,7 +14,7 @@ export class RegulationPage implements OnInit {
   constructor(private regulationService: RegulationService) { }
 
   ngOnInit() {
-    this.regulation = this.regulationService.getAllChapters();
+    this.regulation = this.regulationService.getAllRegulations();
   }
 
 }
