@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Regulation } from './regulation.model';
-import { RegulationService } from './regulation.service';
+import { Regulation } from './c10.model';
+import { RegulationService } from './c10.service';
 
 @Component({
   selector: 'app-regulations',
-  templateUrl: './regulation.page.html',
-  styleUrls: ['./regulation.page.scss'],
+  templateUrl: './c10.page.html',
+  styleUrls: ['./c10.page.scss'],
 })
 export class RegulationPage implements OnInit {
   regulation: Regulation[];

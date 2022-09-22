@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { RegulationService } from './regulation.service';
+import { RegulationService } from './c6.service';
 
 describe('RecipesService', () => {
   let service: RegulationService;

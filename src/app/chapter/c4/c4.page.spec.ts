@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { RegulationPage } from './regulation.page';
+import { RegulationPage } from './c4.page';
 
 describe('RegulationsPage', () => {
   let component: RegulationPage;

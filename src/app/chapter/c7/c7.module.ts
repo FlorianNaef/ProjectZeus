@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { RegulationsPageRoutingModule } from './regulation-routing.module';
+import { RegulationsPageRoutingModule } from './c7-routing.module';
 
-import { RegulationPage } from './regulation.page';
+import { RegulationPage } from './c7.page';
 
 @NgModule({
   imports: [

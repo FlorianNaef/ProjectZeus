@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Regulation } from './regulation.model';
+import { Regulation } from './c1.model';
 
 @Injectable({
   providedIn: 'root'
@@ -21,7 +21,7 @@ export class RegulationService {
     {
       id: 'r1',
       num: 'C1.9.4 (3)	Abwendung eines gefährdeten oder gestörten Netzbetriebs',
-      text: 'Folgende Verbraucher sind zur Abwendung eines gefährdeten oder gestörten Netzzustands mit einem Sperrschütz auszurüsten (unabhängig von einer 24-h-Freigabe), welcher es dem VNB erlaubt, die Verbraucher bei Bedarf auszuschalten:',
+      text: 'Folgende Verbraucher \n sind zur Abwendung eines gefährdeten oder gestörten Netzzustands mit einem Sperrschütz auszurüsten (unabhängig von einer 24-h-Freigabe), welcher es dem VNB erlaubt, die Verbraucher bei Bedarf auszuschalten:',
       selected: true
     },
 
