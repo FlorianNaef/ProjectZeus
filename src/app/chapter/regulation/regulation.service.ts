@@ -5,7 +5,7 @@ import { Regulation } from './regulation.model';
   providedIn: 'root'
 })
 export class RegulationService {
-  private chapters: Regulation[] = [
+  private regulation: Regulation[] = [
     {
       id: 'r1',
       num: 'C1.2 (3) Geltungsbereich',
@@ -29,13 +29,13 @@ export class RegulationService {
 
   constructor() { }
 
-  getAllChapters(){
-    return [...this.chapters];
+  getAllRegulations(){
+    return [...this.regulation];
   }
 
-  getChapter(chapterId: string){
-    return this.chapters.find(chapter => {
-      return chapter.id === chapterId;
+  getRegulation(regulationId: string){
+    return this.regulation.find(regulation => {
+      return regulation.id === regulationId;
     });
   };
 
