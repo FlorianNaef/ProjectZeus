@@ -1,6 +1,6 @@
-Software Licesed by Florian Naef
-
-
-All rights reserved.
-
+Software Licesed by Florian Naef, Luka Steric, Michael Lavelanet and Timo Giger.
+All Rights Reserved.
+Any code within this project is the property of the project group consisting of Florian Naef, Luka Steric, Michael Lavelanet and Timo Giger.
 Any copying, modification or distribution of this software without permission is prohibited.
+The further development of this software after this first limited project phase(19.09.22-23.09.22)
+may only take place with the consent and participation of all project participants
