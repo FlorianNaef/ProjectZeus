@@ -1,14 +1,13 @@
 ion-toolbar{
   --background: #008080;
 
-  ion-title{
-    font-size: 30px;
+  h2{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
   }
 }
 
-#headerText{
-  color: rgb(255, 255, 255);
-}
 
 ion-content{
 
