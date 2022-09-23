@@ -11,7 +11,7 @@
         </ion-col>
         <ion-col>
           <div class="ion-text-center">
-            <h2>Export</h2>
+            <h2>Exportieren</h2>
           </div>
         </ion-col>
         <ion-col>
@@ -23,8 +23,8 @@
 
 <ion-content>
   <form (ngSubmit)="createPdf()" [formGroup]="myForm"></form>
-  <ion-button expand="full" (click)="createPdf()"  type="submit">Create PDF</ion-button >
-  <ion-button expand="full" (click)="downloadPdf()" color="secondary" [disabled]= "!pdfObj">Save PDF</ion-button >
+  <ion-button shape="round" expand="full"(click)="createPdf()"  type="submit" color="primary">PDF erstellen</ion-button >
+  <ion-button shape="round" expand="full" (click)="downloadPdf()" [disabled]= "!pdfObj" color="primary">PDF herunterladen</ion-button >
 
 
 </ion-content>

@@ -27,4 +27,8 @@ export class ChapterPage implements OnInit {
     this.router.navigateByUrl('edit');
   }
 
+  enterDashboard(){
+    this.router.navigateByUrl('dashboard');
+  }
+
 }
