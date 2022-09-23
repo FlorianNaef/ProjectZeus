@@ -8,6 +8,7 @@ import { Component, Input} from '@angular/core';
 export class InputComponent{
   @Input() type: string;
   @Input() placeholder: string;
+value: any;
   constructor() { }
 
 }
