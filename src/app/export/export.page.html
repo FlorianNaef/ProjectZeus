@@ -22,7 +22,8 @@
 </ion-header>
 
 <ion-content>
-  <ion-button expand="full"  type="submit">Create PDF</ion-button >
+  <form (ngSubmit)="createPdf()" [formGroup]="myForm"></form>
+  <ion-button expand="full" (click)="createPdf()"  type="submit">Create PDF</ion-button >
   <ion-button expand="full" (click)="downloadPdf()" color="secondary" [disabled]= "!pdfObj">Save PDF</ion-button >
 
 
