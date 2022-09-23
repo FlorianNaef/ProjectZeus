@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
-import { SignInComponent } from './sign-in/sign-in.component';
+import { LoginPage } from './login/login.page';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes = [
@@ -56,8 +56,8 @@ const routes: Routes = [
         path: 'c12',
         loadChildren: () => import('./chapter/c1/c1.module').then(m => m.RegulationsPageModule)
       },
-      { path: '', redirectTo: '/sign-in', pathMatch: 'full' },
-      { path: 'sign-in', component: SignInComponent },
+      { path: '', redirectTo: '/Login', pathMatch: 'full' },
+      { path: 'sign-in', component: LoginPage },
       { path: 'dashboard', component: DashboardComponent },
     ]
   },
