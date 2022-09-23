@@ -5,13 +5,13 @@
       </ion-row>
       <ion-row>
         <ion-col>
-          <ion-button fill="clear" id="buttonBack" href="chapter">
+          <ion-button fill="clear" id="buttonBack" (click)="enterChapter()">
             <ion-icon size="large" id="iconBack" name="arrow-back-circle-outline"></ion-icon>
         </ion-button>
         </ion-col>
         <ion-col>
           <div class="ion-text-center">
-            <h2>Exportieren</h2>
+            <h2>Profil</h2>
           </div>
         </ion-col>
         <ion-col>
@@ -22,15 +22,10 @@
 </ion-header>
 
 <ion-content>
-  <form (ngSubmit)="createPdf()" [formGroup]="myForm"></form>
-  <ion-button shape="round" expand="full"(click)="createPdf()"  type="submit" color="primary">PDF erstellen</ion-button >
-  <ion-button shape="round" expand="full" (click)="downloadPdf()" [disabled]= "!pdfObj" color="primary">PDF herunterladen</ion-button >
-
-
+  <div>
+    <img id="profilePic" src="assets/icon/profile.webp" class="center">
+    <h2 class="center">Benutzername: Werk_1</h2>
+    <h2 class="center">E-Mail: Werk.1@ksb-sg.ch</h2>
+    <h2 class="center">Passwort: ********</h2>
+  </div>
 </ion-content>
-
-
-
-
-
-

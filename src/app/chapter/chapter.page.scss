@@ -1,10 +1,17 @@
-#headerText {
-  color: rgb(255, 255, 255);
+ion-toolbar{
+  --background: #008080;
+
+  h2{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+  }
 }
 
 #enterEditButton{
   margin-left: 30px;
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 h2{

@@ -2,19 +2,18 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.page.html',
-  styleUrls: ['./login.page.scss'],
+  selector: 'app-dashboard',
+  templateUrl: './dashboard.page.html',
+  styleUrls: ['./dashboard.page.scss'],
 })
-export class LoginPage implements OnInit {
-authService: any;
+export class DashboardPage implements OnInit {
 
   constructor(private router: Router) { }
 
-  ngOnInit() { }
-
-  signIn() {
-    this.router.navigateByUrl('chapter');
+  ngOnInit() {
   }
 
+  enterChapter(){
+    this.router.navigateByUrl('chapter');
+  }
 }

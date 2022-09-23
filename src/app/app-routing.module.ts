@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
-import { SignInComponent } from './sign-in/sign-in.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { LoginPage } from './login/login.page';
+
 
 const routes: Routes = [
   {
@@ -56,9 +56,6 @@ const routes: Routes = [
         path: 'c12',
         loadChildren: () => import('./chapter/c1/c1.module').then(m => m.RegulationsPageModule)
       },
-      { path: '', redirectTo: '/sign-in', pathMatch: 'full' },
-      { path: 'sign-in', component: SignInComponent },
-      { path: 'dashboard', component: DashboardComponent },
     ]
   },
   {
@@ -69,6 +66,11 @@ const routes: Routes = [
     path: 'export',
     loadChildren: () => import('./export/export.module').then( m => m.ExportPageModule)
   },
+  {
+    path: 'dashboard',
+    loadChildren: () => import('./dashboard/dashboard.module').then( m => m.DashboardPageModule)
+  },
+
 ];
 
 @NgModule({
