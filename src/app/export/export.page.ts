@@ -3,7 +3,7 @@ import {HttpClient} from '@angular/common/http';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { Platform } from '@ionic/angular';
 import {FileOpener} from '@ionic-native/file-opener/ngx';
-import * as filesystem from '@capacitor/filesystem';
+
 
 import pdfMake from 'pdfmake/build/pdfmake';
 import pdfFonts from 'pdfmake/build/vfs_fonts';
