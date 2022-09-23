@@ -1,6 +1,7 @@
 export const environment = {
+
   production: true,
-    firebaseConfig:{
+    firebase:{
       apiKey: 'AIzaSyABlu0Ivm43H0OhVf3mZ7lkycZxYe3RW4Q',
       authDomain: 'hellodevinthefuture.firebaseapp.com',
       databaseURL: 'https://hellodevinthefuture-default-rtdb.europe-west1.firebasedatabase.app',
