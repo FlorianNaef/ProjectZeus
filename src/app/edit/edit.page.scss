@@ -1,5 +1,11 @@
-#headerText {
-  color: rgb(255, 255, 255);
+ion-toolbar{
+  --background: #008080;
+
+  h2{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+  }
 }
 
 #enterEditButton{
@@ -7,11 +13,6 @@
   margin-right: 30px;
 }
 
-h2{
-  color: #fff;
-  font-size: 26px;
-  font-weight: 700;
-}
 
 ion-item{
   margin-top: 20px;
@@ -36,5 +37,14 @@ ion-item::part(native) {
 }
 
 #iconProfil{
+  color: #fff;
+}
+
+#buttonBack
+{
+  background: #008080;
+}
+
+#iconBack{
   color: #fff;
 }

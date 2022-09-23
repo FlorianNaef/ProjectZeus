@@ -20,4 +20,8 @@ export class EditPage implements OnInit {
     this.router.navigateByUrl('export');
   }
 
+  enterChapter(){
+    this.router.navigateByUrl('chapter');
+  }
+
 }
