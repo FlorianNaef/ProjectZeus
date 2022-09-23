@@ -30,10 +30,8 @@
     "@ionic/angular": "^6.2.8",
     "@ionic/pwa-elements": "^3.1.1",
     "@ionic/storage": "^3.0.6",
-
     "angularfire2": "^5.4.2",
     "bootstrap": "^5.2.1",
-
     "cordova-plugin-file-opener2": "^3.0.5",
     "ionicons": "^6.0.3",
     "pdfmake": "^0.2.5",
